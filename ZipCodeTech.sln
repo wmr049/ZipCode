@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipCodeTech.Infraestructure", "ZipCodeTech.Infraestructure\ZipCodeTech.Infraestructure.csproj", "{FC7CB123-CCF2-43AE-9D1A-EA504E50A837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipCodeTech.Domain", "ZipCodeTech.Domain\ZipCodeTech.Domain.csproj", "{6E2A835E-7B73-4713-8659-C3A516C49AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipCodeTech.Resource", "ZipCodeTech.Resource\ZipCodeTech.Resource.csproj", "{3E4523B0-05B5-45A0-A9E1-E9C5E7419215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipCodeTech.Startup", "ZipCodeTech.Startup\ZipCodeTech.Startup.csproj", "{764876B8-EB34-4340-AD75-FA2BA355C850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipCodeTech.Business", "ZipCodeTech.Business\ZipCodeTech.Business.csproj", "{B4DD5F6A-987A-4849-B7E2-123BCAB097DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipCodeTech.Api", "ZipCodeTech.Api\ZipCodeTech.Api.csproj", "{732ACBC9-C04A-4F05-A395-6C19B57A4234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipCodeApi.A.Web", "ZipCodeApi.A.Web\ZipCodeApi.A.Web.csproj", "{F30250E9-86B7-4713-B010-3E1B30C5B997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC7CB123-CCF2-43AE-9D1A-EA504E50A837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7CB123-CCF2-43AE-9D1A-EA504E50A837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7CB123-CCF2-43AE-9D1A-EA504E50A837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7CB123-CCF2-43AE-9D1A-EA504E50A837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2A835E-7B73-4713-8659-C3A516C49AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2A835E-7B73-4713-8659-C3A516C49AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2A835E-7B73-4713-8659-C3A516C49AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2A835E-7B73-4713-8659-C3A516C49AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E4523B0-05B5-45A0-A9E1-E9C5E7419215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4523B0-05B5-45A0-A9E1-E9C5E7419215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4523B0-05B5-45A0-A9E1-E9C5E7419215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4523B0-05B5-45A0-A9E1-E9C5E7419215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764876B8-EB34-4340-AD75-FA2BA355C850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764876B8-EB34-4340-AD75-FA2BA355C850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764876B8-EB34-4340-AD75-FA2BA355C850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764876B8-EB34-4340-AD75-FA2BA355C850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4DD5F6A-987A-4849-B7E2-123BCAB097DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4DD5F6A-987A-4849-B7E2-123BCAB097DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4DD5F6A-987A-4849-B7E2-123BCAB097DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4DD5F6A-987A-4849-B7E2-123BCAB097DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732ACBC9-C04A-4F05-A395-6C19B57A4234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732ACBC9-C04A-4F05-A395-6C19B57A4234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732ACBC9-C04A-4F05-A395-6C19B57A4234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732ACBC9-C04A-4F05-A395-6C19B57A4234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30250E9-86B7-4713-B010-3E1B30C5B997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30250E9-86B7-4713-B010-3E1B30C5B997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30250E9-86B7-4713-B010-3E1B30C5B997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30250E9-86B7-4713-B010-3E1B30C5B997}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
